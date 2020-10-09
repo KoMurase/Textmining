@@ -32,7 +32,7 @@ def read_text(path):
     return data
 
 def write_text(data, title):
-    file_name = r"C:\Users\mkou0\Desktop\TM\after\{}.txt".format(title)
+    file_name = r"C:\Users\mkou0\Desktop\TM\after\太宰治_{}.txt".format(title)
      
     file = open(file_name, "w", encoding="utf_8")
     file.write(data)
